@@ -1,0 +1,15 @@
+# IDE
+.idea/
+*.iml
+
+# Компиляция
+out/
+target/
+build/
+
+# Логи
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
