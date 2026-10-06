@@ -44,9 +44,7 @@ public class Main {
     private static double calculateElement(short k, double x) {
         switch (k) {
             case 19 -> {
-                if (x > 1 || x < -1) {
-
-                }
+                
                 return Math.tan(Math.asin(Math.pow(x, 2)));
             } case 3, 4, 6, 9, 13, 15, 16, 18 -> {
                 return Math.log(Math.pow(Math.sin(Math.tan(Math.cos(x))), 2));
